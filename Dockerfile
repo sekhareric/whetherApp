@@ -5,7 +5,8 @@ WORKDIR /usr/src/app
 
 ADD . /usr/src/app/
 RUN npm install
+RUN npm start
 
-EXPOSE 3000
+##EXPOSE 3000
 
-CMD [ "npm", "run", "start" ]
+##CMD [ "npm", "run", "start" ]
